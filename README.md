@@ -16,7 +16,7 @@ http://localhost:8000/docs
 
 ## Установка и запуск
 
-### 1. Клонировать репозиторий
+### 1. Клонировать репозиторий и перейти в корень проекта на сервере
 ```bash
 git clone https:https://github.com/nikkes174/TZProject
 cd TZProject
@@ -28,9 +28,8 @@ POSTGRES_DB= Название БД
 POSTGRES_HOST= адрес сервера
 POSTGRES_PORT=5432 
 
-### 3. Перейти в корень проекта на вашем сервере и запустить Docker
+### 3. Запустить проект через Docker-Compose
 ```bash
-cd TZProject
 docker-compose up --build
 ```
 
